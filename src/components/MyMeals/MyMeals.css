@@ -1,0 +1,51 @@
+
+.title{
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #ffa500;
+    background-color: #333;
+    padding: 0 5%;
+    height: 10vh;
+}
+.meals-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5% 5%;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 20px;
+}
+.recomendation-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5%;
+}
+.recomendation-wrapper > p {
+  font-size: 1.4rem;
+  padding: 10px 0;
+}
+.recomendation-wrapper > div {
+  width: 50vw;
+}
+@media screen and (min-width: 768px) {
+    .meals-wrapper {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .title {
+      padding: 2% 5%;
+    }
+    .recomendation-wrapper > div {
+      width: 30vw;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .meals-wrapper {
+      grid-template-columns: repeat(5, 1fr);
+    }
+    .recomendation-wrapper > div {
+      width: 20vw;
+    }
+
+  }

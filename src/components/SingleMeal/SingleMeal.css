@@ -1,0 +1,93 @@
+
+
+
+.single-meal{
+  display: grid;
+}
+.single-meal-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #ffa500;
+  background-color: #333;
+  padding: 0 10%;
+  height: 10vh;
+}
+.recipe{
+  padding: 5% 10%;
+  display: grid;
+  grid-gap: 10px
+}
+.single-meal-image img{
+  width: 70%;
+
+}
+.recipe div{
+  display: grid;
+  grid-gap: 10px;
+}
+.recipe b{
+  margin-right: 5px;
+}
+.recipe>div>p{
+  font-size: 1.1em;
+}
+.recipe>div>p>a{
+  color: #ffa500;
+}
+
+.measures{
+  display: flex;
+  justify-content: flex-start;
+  padding: 5% 10%;
+  background-color: #333
+}
+.measures table{
+  width: 60%;
+  color:#fff
+}
+table thead tr th{
+  padding: 5px 0;
+  border-bottom: 1px solid #ffa500;
+  color: #ffa500;
+  text-align: start
+}
+td{
+  padding: 5px 0
+}
+.similar-meals-wrapper{
+  display: grid;
+  padding: 5%;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 20px;
+}
+.similar-meals-wrapper a{
+  width: 60%;
+  padding: 5% 0;
+  
+}
+@media screen and (min-width:768px){
+  .single-meal-title {
+    padding: 0 5%;
+}
+.similar-meals-wrapper a{
+  width: 80%;
+  
+}
+.similar-meals-wrapper{
+  grid-template-columns: repeat(3,1fr);
+}
+}
+@media screen and (min-width:992px){
+  .single-meal-image img {
+    width: 70%;
+  }
+  .recipe{
+    grid-template-columns: 1fr 2fr
+  }
+  .measures table {
+    width: 30%;
+}
+}

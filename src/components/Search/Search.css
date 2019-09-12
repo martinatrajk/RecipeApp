@@ -1,0 +1,116 @@
+.search{
+    display: grid;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #ffa500;
+    background-color: #333;
+    padding: 0 10%;
+    height: 10vh;
+}
+.choose-category{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 10%;
+    border-top:1px solid #333
+}
+.dropdown-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    width: 50%;
+    background-color: #ffa500;
+    font-size: 1.1rem;
+    cursor: pointer;
+
+}
+.dropdown{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+.dropdown div{
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #333;
+    color: #ffa500;
+
+}
+.dropdown div:hover{
+    background-color: #ffa500;
+    color: #333
+}
+.results{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5% 10%;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 20px;
+}
+.results a{
+    width: 100%;
+}
+.nothing-found{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+.recomendation {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+  }
+  .recomendation > p {
+    font-size: 1.4rem;
+    padding: 10px 0;
+  }
+  .recomendation > div {
+    width: 50vw;
+  }
+
+@media screen and (min-width: 768px) {
+    .title{
+        padding: 0% 5%;
+    }
+    .results {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0 5%
+      }
+      .choose-category{
+        padding: 0 5%;
+    }
+    .dropdown-wrapper{
+width: 20%;
+    }
+    .recomendation > div {
+        width: 30vw;
+      }
+
+}
+@media screen and (min-width:992px){
+    .results {
+        grid-template-columns: repeat(5, 1fr);
+      }
+      .nothing-found{
+        height: 80vh;
+    }
+    .recomendation > div {
+        width: 20vw;
+      }
+}

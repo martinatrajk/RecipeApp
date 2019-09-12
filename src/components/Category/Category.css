@@ -1,0 +1,81 @@
+.category {
+  display: grid;
+}
+.category-name {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #ffa500;
+  background-color: #333;
+  padding: 0 5%;
+  height: 10vh;
+}
+.recomendation-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5%;
+}
+.recomendation-wrapper > p {
+  font-size: 1.4rem;
+  padding: 10px 0;
+}
+.recomendation-wrapper > div {
+  width: 50vw;
+}
+.search-box {
+  height: 10vh;
+  padding: 5% 5%;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #333;
+}
+.search-box input {
+  height: 6vh;
+  width: 50vw;
+  border: 1px solid #333;
+  font-size: 1.1rem;
+  padding: 0 10px;
+
+}
+.meals {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5% 5%;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 20px;
+}
+.meals a {
+  width: 100%;
+}
+.category-nothing-found{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  grid-column: span 2;
+}
+@media screen and (min-width: 768px) {
+  .meals {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .recomendation-wrapper > div {
+    width: 30vw;
+  }
+  .category-name,
+  .recomendation-wrapper {
+    padding: 2% 5%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .meals {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .recomendation-wrapper > div {
+    width: 20vw;
+  }
+}
