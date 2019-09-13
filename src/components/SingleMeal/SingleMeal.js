@@ -62,6 +62,7 @@ class SingleMeal extends React.Component {
   }
   componentDidMount = () => {
     this.getMeal()
+
   };
   componentDidUpdate(prevProps) {
     if (this.props.location.pathname !== prevProps.location.pathname) {

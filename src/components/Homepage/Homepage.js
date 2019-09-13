@@ -2,6 +2,8 @@ import React from 'react'
 import './Homepage.css'
 import { Link } from 'react-router-dom'
 import axios from 'axios';
+import headersImg from '../../assets/images/header.png'
+import aboutImg from '../../assets/images/about.jpg'
 
 class Homepage extends React.Component {
     constructor(){
@@ -46,15 +48,13 @@ class Homepage extends React.Component {
     }
 
     render() {
-        console.log(this.state)
         const {error,categories,contactData,messageDelivered} = this.state
         const {firstName,lastName,email,message}=contactData
-
         return (
             <div className='homepage'>
                 <div className='headers'>
                     <div className='headers-image'>
-                        <img src='./assets/images/header.png' alt='food'></img>
+                        <img src={headersImg} alt='food'></img>
                     </div>
                     <div className='headers-text'>
                         <p className='text-title'>FOOD RECIPES</p>
@@ -88,7 +88,7 @@ class Homepage extends React.Component {
                         </p>
                         </div>
                         <div className='about-image-wrapper'>
-                            <img src='./assets/images/about.jpg' alt='about'></img>
+                            <img src={aboutImg} alt='about'></img>
                         </div>
                     </div>
                 </div>

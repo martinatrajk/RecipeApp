@@ -18,14 +18,14 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    transition: background-color 0.3s linear;
+    transition: background-color 0.5s linear;
     font-weight: bold;
 
 }
 .single-meal-wrapper:hover p{
     color: #333;
     background-color: #ffa500;
-    transition: background-color 0.3s linear
+    transition: background-color 0.5s linear
 }
 @media screen and (min-width:768px){
     .single-meal-wrapper p{

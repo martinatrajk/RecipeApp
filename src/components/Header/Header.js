@@ -3,6 +3,7 @@ import './Header.css';
 import { Link } from 'react-router-dom'
 import { HashLink} from 'react-router-hash-link';
 import { withRouter } from "react-router-dom";
+import profileIcon from '../../assets/icons/user.png'
 
 class Header extends React.Component {
     constructor(props) {
@@ -31,8 +32,8 @@ class Header extends React.Component {
             }
         }
         this.logout = ()=>{
-            if(props.history.location.pathname=== '/mymeals'){
-                props.history.push('/')
+            if(props.history.location.pathname === '/RecipeApp/mymeals'){
+                props.history.push('/RecipeApp/')
             }
             localStorage.setItem('logged',false)
             this.setState({loginVisible:false,isLogged:false })
@@ -47,21 +48,21 @@ class Header extends React.Component {
         return (
             <div className='header'>
                 <div className='header-links'>
-                    {(location.pathname !== '/') ? <Link to='/'>HOME</Link> : null}
-                    <HashLink to='/#about'>ABOUT</HashLink>
-                    <HashLink to='/#contact'>CONTACT</HashLink>
-                    {isLogged && <Link to='/mymeals'>MY MEALS</Link>}
+                    {(location.pathname !== '/RecipeApp/') ? <Link to='/RecipeApp/'>HOME</Link> : null}
+                    <HashLink to='/RecipeApp/#about'>ABOUT</HashLink>
+                    <HashLink to='/RecipeApp/#contact'>CONTACT</HashLink>
+                    {isLogged && <Link to='/RecipeApp/mymeals'>MY MEALS</Link>}
                 </div>
                 <div className='header-searchbox-wrapper'>
                     <div className='header-searchbox'>
                         <input type='text' name='value' onChange={this.getInputValue} placeholder='Search recipes' />
                         <div className='icon-wrapper'>
-                            <Link to={`/search/${value}`}>></Link>
+                            <Link to={`/RecipeApp/search/${value}`}>></Link>
                         </div>
                     </div>
                 </div>
                 <div className='login-wrapper'>
-                    <img src='../assets/icons/user.png' onClick={this.toggleLogin} alt='user'/>
+                    <img src={profileIcon} onClick={this.toggleLogin} alt='user'/>
                     {loginVisible &&
                         <div className='login-form'>
                             {!isLogged ?

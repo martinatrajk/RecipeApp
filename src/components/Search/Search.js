@@ -17,13 +17,13 @@ class Search extends React.Component {
       axios
         .get(
           `https://www.themealdb.com/api/json/v1/1/search.php?s=${
-            this.props.location.pathname.split("/")[2]
+            this.props.location.pathname.substring(this.props.location.pathname.lastIndexOf('/')+1)
           }`
         )
         .then(res => {
-          this.setState({ searchData: res.data.meals,random:Math.floor(Math.random() * res.data.meals.length)});
           const x = new Set();
           if (res.data.meals) {
+            this.setState({ searchData: res.data.meals,random:Math.floor(Math.random() * res.data.meals.length)});
             res.data.meals.forEach(meal => {
               x.add(meal.strCategory);
               this.setState({ dropdownData: [...x],loading:false });
