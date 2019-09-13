@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/martinatrajk/RecipeApp/static/css/main.ea71eaf7.chunk.css",
-    "main.js": "/martinatrajk/RecipeApp/static/js/main.88d44b71.chunk.js",
-    "main.js.map": "/martinatrajk/RecipeApp/static/js/main.88d44b71.chunk.js.map",
-    "runtime~main.js": "/martinatrajk/RecipeApp/static/js/runtime~main.f7a220a6.js",
-    "runtime~main.js.map": "/martinatrajk/RecipeApp/static/js/runtime~main.f7a220a6.js.map",
-    "static/js/2.7522523f.chunk.js": "/martinatrajk/RecipeApp/static/js/2.7522523f.chunk.js",
-    "static/js/2.7522523f.chunk.js.map": "/martinatrajk/RecipeApp/static/js/2.7522523f.chunk.js.map",
-    "index.html": "/martinatrajk/RecipeApp/index.html",
-    "precache-manifest.6fa265207db36a91ed0b882094256e66.js": "/martinatrajk/RecipeApp/precache-manifest.6fa265207db36a91ed0b882094256e66.js",
-    "service-worker.js": "/martinatrajk/RecipeApp/service-worker.js",
-    "static/css/main.ea71eaf7.chunk.css.map": "/martinatrajk/RecipeApp/static/css/main.ea71eaf7.chunk.css.map",
-    "static/media/INSTA.png": "/martinatrajk/RecipeApp/static/media/INSTA.d2f422e5.png",
-    "static/media/about.jpg": "/martinatrajk/RecipeApp/static/media/about.2c22d30b.jpg",
-    "static/media/header.png": "/martinatrajk/RecipeApp/static/media/header.7c1fd99f.png",
-    "static/media/user.png": "/martinatrajk/RecipeApp/static/media/user.d11dbd70.png"
+    "main.css": "/RecipeApp/static/css/main.ea71eaf7.chunk.css",
+    "main.js": "/RecipeApp/static/js/main.4d0a5562.chunk.js",
+    "main.js.map": "/RecipeApp/static/js/main.4d0a5562.chunk.js.map",
+    "runtime~main.js": "/RecipeApp/static/js/runtime~main.eb192a1f.js",
+    "runtime~main.js.map": "/RecipeApp/static/js/runtime~main.eb192a1f.js.map",
+    "static/js/2.7522523f.chunk.js": "/RecipeApp/static/js/2.7522523f.chunk.js",
+    "static/js/2.7522523f.chunk.js.map": "/RecipeApp/static/js/2.7522523f.chunk.js.map",
+    "index.html": "/RecipeApp/index.html",
+    "precache-manifest.fb6802b96b63d67032edf46d6aff700f.js": "/RecipeApp/precache-manifest.fb6802b96b63d67032edf46d6aff700f.js",
+    "service-worker.js": "/RecipeApp/service-worker.js",
+    "static/css/main.ea71eaf7.chunk.css.map": "/RecipeApp/static/css/main.ea71eaf7.chunk.css.map",
+    "static/media/INSTA.png": "/RecipeApp/static/media/INSTA.d2f422e5.png",
+    "static/media/about.jpg": "/RecipeApp/static/media/about.2c22d30b.jpg",
+    "static/media/header.png": "/RecipeApp/static/media/header.7c1fd99f.png",
+    "static/media/user.png": "/RecipeApp/static/media/user.d11dbd70.png"
   }
 }
