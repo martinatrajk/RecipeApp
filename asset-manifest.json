@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/RecipeApp/static/css/main.ea71eaf7.chunk.css",
-    "main.js": "/RecipeApp/static/js/main.4d0a5562.chunk.js",
-    "main.js.map": "/RecipeApp/static/js/main.4d0a5562.chunk.js.map",
-    "runtime~main.js": "/RecipeApp/static/js/runtime~main.eb192a1f.js",
-    "runtime~main.js.map": "/RecipeApp/static/js/runtime~main.eb192a1f.js.map",
-    "static/js/2.7522523f.chunk.js": "/RecipeApp/static/js/2.7522523f.chunk.js",
-    "static/js/2.7522523f.chunk.js.map": "/RecipeApp/static/js/2.7522523f.chunk.js.map",
-    "index.html": "/RecipeApp/index.html",
-    "precache-manifest.fb6802b96b63d67032edf46d6aff700f.js": "/RecipeApp/precache-manifest.fb6802b96b63d67032edf46d6aff700f.js",
-    "service-worker.js": "/RecipeApp/service-worker.js",
-    "static/css/main.ea71eaf7.chunk.css.map": "/RecipeApp/static/css/main.ea71eaf7.chunk.css.map",
-    "static/media/INSTA.png": "/RecipeApp/static/media/INSTA.d2f422e5.png",
-    "static/media/about.jpg": "/RecipeApp/static/media/about.2c22d30b.jpg",
-    "static/media/header.png": "/RecipeApp/static/media/header.7c1fd99f.png",
-    "static/media/user.png": "/RecipeApp/static/media/user.d11dbd70.png"
+    "main.css": "/static/css/main.ea71eaf7.chunk.css",
+    "main.js": "/static/js/main.0eaa8520.chunk.js",
+    "main.js.map": "/static/js/main.0eaa8520.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.3d691157.js",
+    "runtime~main.js.map": "/static/js/runtime~main.3d691157.js.map",
+    "static/js/2.7522523f.chunk.js": "/static/js/2.7522523f.chunk.js",
+    "static/js/2.7522523f.chunk.js.map": "/static/js/2.7522523f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dd11dd9a848e11522fa659161e64f1f5.js": "/precache-manifest.dd11dd9a848e11522fa659161e64f1f5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ea71eaf7.chunk.css.map": "/static/css/main.ea71eaf7.chunk.css.map",
+    "static/media/INSTA.png": "/static/media/INSTA.d2f422e5.png",
+    "static/media/about.jpg": "/static/media/about.2c22d30b.jpg",
+    "static/media/header.png": "/static/media/header.7c1fd99f.png",
+    "static/media/user.png": "/static/media/user.d11dbd70.png"
   }
 }
