@@ -17,11 +17,11 @@ class App extends React.Component {
         <div className="app">
           <Header getInputValue={this.getInputValue} changeRouter={this.changeRouter} />
           <Switch>
-            <Route path='/RecipeApp/' exact component={Homepage} />
-            <Route path='/RecipeApp/category/:name' component={Category} />
-            <Route path='/RecipeApp/recipe/:id' exact component={SingleMeal} />
-            <Route path="/RecipeApp/search/:id"  component={Search} />
-            <Route path="/RecipeApp/mymeals" component={MyMeals}/>
+            <Route path='/' exact component={Homepage} />
+            <Route path='/category/:name' component={Category} />
+            <Route path='/recipe/:id' exact component={SingleMeal} />
+            <Route path="/search/:id"  component={Search} />
+            <Route path="/mymeals" component={MyMeals}/>
           </Switch>
           <Footer />
         </div>
